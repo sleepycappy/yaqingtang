@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Joyce Yaqing Tang / Site Title"
+title                    : "Joyce Yaqing Tang / Personal Website"
 title_separator          : "-"
 name                     : &name "Joyce Yaqing Tang"
 description              : &description "Joyce Yaqing Tang's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -24,7 +24,7 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Joyce Yaqing Tang"
   pronouns         : "she/they"  
   bio              : "Hello, I am a senior year cognitive science undergraduate student at UCSD"
   location         : "La Jolla, CA, USA"
