@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Joyce Yaqing Tang / Personal Website"
+title                    : "Joyce Yaqing Tang"
 title_separator          : "-"
 name                     : &name "Joyce Yaqing Tang"
-description              : &description "Joyce Yaqing Tang's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Joyce Yaqing Tang's academic personal page"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://sleepycappy.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -220,10 +220,10 @@ collections:
 
 # These settings control how pages and collections are included in the site
 defaults:
-  # _posts
+  # _research
   - scope:
       path: ""
-      type: posts
+      type: research
     values:
       layout: single
       author_profile: true
@@ -231,49 +231,13 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
+  # _CV
   - scope:
       path: ""
-      type: pages
+      type: CV
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
-
 
 # Sass/SCSS
 sass:
